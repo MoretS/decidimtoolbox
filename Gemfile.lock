@@ -49,6 +49,7 @@ GEM
     arel (9.0.0)
     ast (2.4.0)
     bindex (0.7.0)
+    blueprinter (0.22.0)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     browser (2.5.3)
@@ -408,6 +409,7 @@ PLATFORMS
 DEPENDENCIES
   addressable
   appsignal
+  blueprinter
   bootsnap (>= 1.1.0)
   browser
   byebug
@@ -472,4 +474,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   1.17.2
+   2.0.2
