@@ -43,7 +43,7 @@ class Category < ApplicationRecord
       .find(permalink.try(:strip))
   end
 
-  CATALOG_GITHUB_BASE_URL = "https://github.com/rubytoolbox/catalog/"
+  CATALOG_GITHUB_BASE_URL = Rails.configuration.catalog_url
 
   def catalog_show_url
     catalog_github_url

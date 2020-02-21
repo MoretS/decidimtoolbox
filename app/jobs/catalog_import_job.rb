@@ -14,7 +14,7 @@ class CatalogImportJob < ApplicationJob
   end
 
   def catalog_url
-    "https://rubytoolbox.github.io/catalog/catalog.json"
+    Rails.configuration.catalog_url
   end
 
   def http_client
